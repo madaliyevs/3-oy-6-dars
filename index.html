@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="./assets/styles/style.css"> 
+ 
+    <title>Responsive vs Adaptive</title> 
+</head> 
+ 
+<body class="bg-slate-950 text-white"> 
+    <header> 
+        <nav class="container flex justify-between items-center mx-auto max-w-[90%] py-10"> 
+            <a href="#"> 
+                <h1 class="font-mono font-bold text-2xl text-violet-700">BYD</h1> 
+            </a> 
+ 
+            <ul class="flex items-center gap-5"> 
+                <li class="text-violet-400 hover:text-violet-700 transition-all hover:scale-110">Home</li> 
+                <li class="text-violet-400 hover:text-violet-700 transition-all hover:scale-110">About</li> 
+                <li class="text-violet-400 hover:text-violet-700 transition-all hover:scale-110">Contacts</li> 
+            </ul> 
+        </nav> 
+ 
+        <div class="showcase"> 
+            <img src="https://car24.uz/wp-content/uploads/2023/12/Untitled-design-4.png" 
+                class="w-full object-cover" alt=""> 
+        </div> 
+ 
+    </header> 
+ 
+    <main class="py-20"> 
+        <div class="container mx-auto max-w-[90%] info-cards"> 
+            <!-- Первый карточка --> 
+            <div class="card flex items-center gap-[5%]"> 
+                <img src="https://ev-motors.by/uploads/images/oJJZQGreHR.png" alt=""> 
+                <div class="text flex flex-col items-end"> 
+                    <h1 class="text-mono text-2xl">BYD Champion</h1> 
+                    <p class="text-sm text-mono font-medium py-4"> 
+                        19-дюймовые колесные диски из алюминиевого сплава сочетают в себе красоту и безопасность. 
+                        Светлый и темный цвет излучает моду и динамизм, и шины шириной 235 мм более стабильна и 
+                        безопасна. 
+                    </p> 
+                    <button class="py-2 px-5 bg-violet-700 text-white rounded-2xl">Подробнее</button> 
+                </div> 
+            </div> 
+             
+            <!-- вторая карточка --> 
+            <div class="card flex items-center gap-[5%] flex-row-reverse"> 
+                <img src="https://devel.prom.uz/upload/spu_product_logos/01/75/01757be2ed86cd7405c120f02948fc22.png" 
+                    alt=""> 
+                <div class="text"> 
+                    <h1 class="text-mono text-2xl">BYD Song plus</h1> 
+                    <p class="text-sm text-mono font-medium py-4"> 
+                        19-дюймовые колесные диски из алюминиевого сплава сочетают в себе красоту и безопасность. 
+                        Светлый и темный цвет излучает моду и динамизм, и шины шириной 235 мм более стабильна и 
+                        безопасна. 
+                    </p> 
+                    <button class="py-2 px-5 bg-violet-700 text-white rounded-2xl">Подробнее</button> 
+                </div> 
+            </div> 
+        </div> 
+    </main> 
+</body> 
+ 
+</html>
